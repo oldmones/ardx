@@ -1,4 +1,4 @@
-Set-MpPreference -DisableRealtimeMonitoring $true
+1  desativament temporario Set-MpPreference:  -DisableRealtimeMonitoring $true
 
 Usando o PowerShell para Desativar o Windows Defender
 
